@@ -11,6 +11,9 @@ This Repo consists of my assignments for my Web Dev course taken during the Summ
 
 [Part Two](/Assignment One/Problem%20Two/tables.html) uses a standard table to display data using an html file.
 
+<p align="center">
+  <img src="/screenshots/assignment-One/tables.png?raw=true" />
+</p>
 
 ## Assignement Two
 
