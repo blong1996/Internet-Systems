@@ -4,7 +4,7 @@ This Repo consists of my assignments for my Web Dev course taken during the Summ
 
 ## Assignment One
 
-![Alt text](/screenshots/assignment-One/home.png?raw=true "Assignment One Home Page")
+![](/screenshots/assignment-One/home.png?raw=true "Assignment One Home Page")
 
 ## Assignement Two
 
