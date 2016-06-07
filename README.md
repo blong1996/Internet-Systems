@@ -3,7 +3,9 @@ This Repo consists of my assignments for my Web Dev course taken during the Summ
 
 
 ## Assignment One
-![](/screenshots/assignment-One/home.png?raw=true)
+<p align="center">
+  <img src="/screenshots/assignment-One/home.png?raw=true" />
+</p>
 
 [Part One](/Assignment One/Problem%20One/home.html) of this assingment uses image hotspots to create links to other html files from within an image. 
 
