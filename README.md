@@ -3,11 +3,12 @@ This Repo consists of my assignments for my Web Dev course taken during the Summ
 
 
 ## Assignment One
+
+[Part One](/Assignment One/Problem%20One/home.html) of this assingment uses image hotspots to create links to other html files from within an image. 
+
 <p align="center">
   <img src="/screenshots/assignment-One/home.png?raw=true" />
 </p>
-
-[Part One](/Assignment One/Problem%20One/home.html) of this assingment uses image hotspots to create links to other html files from within an image. 
 
 [Part Two](/Assignment One/Problem%20Two/tables.html) uses a standard table to display data using an html file.
 
@@ -17,11 +18,12 @@ This Repo consists of my assignments for my Web Dev course taken during the Summ
 
 ## Assignment Two
 
+
+[Part One](/Assignment One/Problem%20One/index.html) of this assignment utilizes CSS to display the requirements needed to earn a PhD from North Carolina A & T State Univeristy
+
 <p align="center">
   <img src="/screenshots/assignment-Two/phd.png?raw=true" />
 </p>
-
-[Part One](/Assignment One/Problem%20One/index.html) of this assignment utilizes CSS to display the requirements needed to earn a PhD from North Carolina A & T State Univeristy
 
 [Part Two](/Assignment One/Problem%20Two/index.html) demonstrates the use of floating elements and text flow.
 
