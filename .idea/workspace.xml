@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="971f8395-2e2f-47e4-9084-334f64625b02" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assignment Four/js/problem-two.js" afterPath="$PROJECT_DIR$/Assignment Four/js/problem-two.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assignment Four/problem-one.html" afterPath="$PROJECT_DIR$/Assignment Four/problem-one.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assignment Four/problem-two.html" afterPath="$PROJECT_DIR$/Assignment Four/problem-two.html" />
-    </list>
+    <list default="true" id="971f8395-2e2f-47e4-9084-334f64625b02" name="Default" comment="" />
     <ignored path="Internet-Systems.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -49,8 +45,8 @@
       <file leaf-file-name="problem-two.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assignment Four/js/problem-two.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="40" column="34" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
+            <state relative-caret-position="60">
+              <caret line="8" column="59" selection-start-line="8" selection-start-column="59" selection-end-line="8" selection-end-column="59" />
               <folding />
             </state>
           </provider>
@@ -106,9 +102,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="540" />
+    <option name="x" value="372" />
     <option name="y" value="23" />
-    <option name="width" value="737" />
+    <option name="width" value="905" />
     <option name="height" value="716" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -653,16 +649,16 @@
       <option name="presentableId" value="Default" />
       <updated>1465327344980</updated>
       <workItem from="1465327346489" duration="1099000" />
-      <workItem from="1465348515614" duration="12057000" />
+      <workItem from="1465348515614" duration="12085000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13156000" />
+    <option name="totallyTimeSpent" value="13184000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="540" y="23" width="737" height="716" extended-state="0" />
-    <editor active="false" />
+    <frame x="372" y="23" width="905" height="716" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -675,7 +671,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22252375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18121547" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -792,8 +788,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assignment Four/js/problem-two.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="40" column="34" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
+        <state relative-caret-position="60">
+          <caret line="8" column="59" selection-start-line="8" selection-start-column="59" selection-end-line="8" selection-end-column="59" />
           <folding />
         </state>
       </provider>
