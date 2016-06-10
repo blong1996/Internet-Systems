@@ -73,6 +73,7 @@ function start() {
                         " mph from the west.");
                 }
             }else {
+                
                 window.alert("No direction found for wind of "+
                     subStrThree +" mph.");
             }
