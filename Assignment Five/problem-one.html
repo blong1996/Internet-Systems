@@ -1,0 +1,58 @@
+<!--
+    Brandon Long
+    June 16, 2016
+    Internet Systems
+    Assignment Five  | Problem One
+
+/\\\\\\\\\\\\    /\\\              /\\\\\\\\\\\    /\\\\\     /\\\    /\\\\\\\\\\\
+\/\\\////////\\\ \/\\\            /\\\\////////\\\ \/\\\\\\   \/\\\  /\\\\////////\\\
+ \/\\\      \/\\\ \/\\\           \/\\\       \/\\\ \/\\\/\\\  \/\\\ \/\\\       \///
+  \/\\\\\\\\\\\\/  \/\\\           \/\\\       \/\\\ \/\\\//\\\ \/\\\ \/\\\
+   \/\\\///////\\\\ \/\\\           \/\\\       \/\\\ \/\\\\//\\\\/\\\ \/\\\     /\\\\\\
+    \/\\\      \/\\\ \/\\\           \/\\\       \/\\\ \/\\\ \//\\\/\\\ \/\\\    \////\\\
+     \/\\\      \/\\\ \/\\\           \/\\\       \/\\\ \/\\\  \//\\\\\\ \/\\\       \/\\\
+      \/\\\\\\\\\\\\/  \/\\\\\\\\\\\\\ \/\/\\\\\\\\\\\/  \/\\\   \//\\\\\ \/\/\\\\\\\\\\\/
+       \////////////    \/////////////    \///////////    \///     \/////    \///////////
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Internet Systems Assignment Five | Problem One</title>
+        <meta charset="UTF-8">
+        <meta name="author" content="Brandon Long">
+        <script type="text/JavaScript" src="js/problem-one.js"> </script>
+    </head>
+    <body onload="start()">
+        <form action="php/someScript.php" method="POST">
+            <p><label for="iden">User ID:</label>
+                <input type="text" id="iden" name="iden" size="6" maxlength="4" />
+            </p>
+            <p><label for="dayexp">Expenditure for the day:</label>
+                <input type="text" id="dayexp" name="dayexp" size="7" value="$99.99" />
+            </p>
+            <p style="display:none" id="trbox">
+                <label for="trexp">Travel expenses:</label>
+                <input type="text" id="trexp" name="trexp" size="7" value="$99.99" />
+            </p>
+            <p style="display:none" id="smbox">
+                <label for="smfees">Meeting fees:</label>
+                <input type="text" id="smfees" name="smfees" size="7" value="$99.99" />
+            </p>
+            <p>Did you travel? <br />
+                <input type="radio" name="travel" value="yes" id="tr_yes" />
+                <label for="tr_yes">Yes</label> <br />
+                <input type="radio" name="travel" value="no" id="tr_no" checked />
+                <label for="tr_no">No</label> <br />
+            </p>
+            <p>Did you attend the special meeting? <br />
+                <input type="radio" name="specmeeting" value="yes" id="sm_yes" />
+                <label for="sm_yes">Yes</label> <br />
+                <input type="radio" name="specmeeting" value="no" id="sm_no" checked />
+                <label for="sm_no">No</label> <br />
+            </p>
+        </form>
+    </body>
+
+</html>
