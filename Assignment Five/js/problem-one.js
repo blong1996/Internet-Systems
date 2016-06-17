@@ -29,14 +29,15 @@ function start()  {
 function checkCurrency(e) {
     // check if input is valid and has a $ sign
     var val = e.target.value;
-    var regEx = /^\$?[0-9][0-9,]*[0-9]\.?[0-9]{0,2}$/i;
+    var regEx = /\$\d+\.\d{2}$|\d+\.\d{2}$/;
 
     if (!regEx.test(val)) {
         window.alert(val + " is not a valid input");
+        e.target.value = "";
     }
     else {
         if(val[0] != "$") {
-            e.reset();
+            e.target.value = "$"+ e.target.value;
         }
     }
 }
@@ -69,7 +70,8 @@ function checkIDall(e) {
 
     if (!regExp.test(val)) {
         window.alert("Wrong ID format.");
-        ID.reset();
+        e.target.value = "";
+        return false;
     }
 
 }

@@ -1,8 +1,8 @@
 <!--
     Brandon Long
-    June 3, 2016
+    June 16, 2016
     Internet Systems
-    Assignment Three  | Problem Four
+    Assignment Five  | Problem Two
 
 /\\\\\\\\\\\\    /\\\              /\\\\\\\\\\\    /\\\\\     /\\\    /\\\\\\\\\\\
 \/\\\////////\\\ \/\\\            /\\\\////////\\\ \/\\\\\\   \/\\\  /\\\\////////\\\
@@ -15,14 +15,42 @@
        \////////////    \/////////////    \///////////    \///     \/////    \///////////
 
 -->
-
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+    <head>
+        <title>Internet Systems Assignment Five | Problem Two</title>
+        <meta charset="UTF-8">
+        <meta name="author" content="Brandon Long">
+        <script type="text/JavaScript" src="js/problem-two.js"> </script>
+    </head>
+    <body onload="start()">
+        <form action="php/someScript.php" method="POST">
+            <p><label for="first">First Name:</label>
+                <input type="text" id="first" name="first" size="8"  />
+            </p>
+            <p><label for="last">Last Name:</label>
+                <input type="text" id="last" name="last" size="10" />
+            </p>
 
-</body>
+            <fieldset style="width: 100px">
+                <legend>Year</legend>
+                <input type="radio" name="year" value="freshman" id="freshman" />
+                <label for="freshman">Freshman</label> <br />
+                <input type="radio" name="year" value="sophomore" id="sophomore"  />
+                <label for="sophomore">Sophomore</label> <br />
+                <input type="radio" name="year" value="junior" id="junior" />
+                <label for="junior">Junior</label> <br />
+                <input type="radio" name="year" value="senior" id="senior" />
+                <label for="senior">Senior</label> <br />
+            </fieldset>
+
+            <p><label for="gpa">GPA</label>
+                <input type="text" id="gpa" name="gpa" size="8" value="0.00" />
+            </p>
+            <p>
+                <input type="button" name="bt" id="bt" value="Display"/>
+            </p>
+
+        </form>
+    </body>
 </html>
