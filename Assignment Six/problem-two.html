@@ -1,0 +1,67 @@
+<!--
+    Brandon Long
+    June 20, 2016
+    Internet Systems
+    Assignment Six  | Problem Two
+
+/\\\\\\\\\\\\    /\\\              /\\\\\\\\\\\    /\\\\\     /\\\    /\\\\\\\\\\\
+\/\\\////////\\\ \/\\\            /\\\\////////\\\ \/\\\\\\   \/\\\  /\\\\////////\\\
+ \/\\\      \/\\\ \/\\\           \/\\\       \/\\\ \/\\\/\\\  \/\\\ \/\\\       \///
+  \/\\\\\\\\\\\\/  \/\\\           \/\\\       \/\\\ \/\\\//\\\ \/\\\ \/\\\
+   \/\\\///////\\\\ \/\\\           \/\\\       \/\\\ \/\\\\//\\\\/\\\ \/\\\     /\\\\\\
+    \/\\\      \/\\\ \/\\\           \/\\\       \/\\\ \/\\\ \//\\\/\\\ \/\\\    \////\\\
+     \/\\\      \/\\\ \/\\\           \/\\\       \/\\\ \/\\\  \//\\\\\\ \/\\\       \/\\\
+      \/\\\\\\\\\\\\/  \/\\\\\\\\\\\\\ \/\/\\\\\\\\\\\/  \/\\\   \//\\\\\ \/\/\\\\\\\\\\\/
+       \////////////    \/////////////    \///////////    \///     \/////    \///////////
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Internet Systems Assignment Six | Problem Two</title>
+        <meta charset="UTF-8">
+        <meta name="author" content="Brandon Long">
+        <link rel="stylesheet" href=
+                "http://code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
+        <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+        <script src="http://code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+        <script type="text/javascript" src="js/problem-two.js"></script>
+    </head>
+    <body style="font-size:80%">
+        <h1>Information About You</h1>
+
+        <div id="dialog"  title="Your Name">
+            <label for="fname">First Name: <input type="text" id="fname"/></label><br><br>
+            <label for="lname">Last Name: <input type="text" id="lname"/></label>
+        </div>
+        <div id="tabs">
+            <ul>
+                <li><a href="#tab1"><span>Next Birthday</span></a></li>
+                <li><a href="#tab2"><span>Name and Confidence</span></a></li>
+                <li><a href="#tab3"><span>Information Recorded</span></a></li>
+            </ul>
+            <div id="tab1">
+                <h3>Your Next Birthday</h3>
+                <div type="text" id="datepicker"></div>
+            </div>
+            <div id="tab2" align="center">
+                <h3>Record your level of confidence in this course, 0 to 100 percent.</h3>
+                <div id="slider" style="width: 80%"></div> <br>
+                <p id="results"></p><br>
+                <button id="bt" >Click to record your name</button>
+            </div>
+            <div id="tab3">
+                <p id="name"></p>
+                <p style="font-size:100%;" id="result"></p>
+                <p id="results2"></p>
+            </div>
+        </div>
+        <footer>
+            <!-- copyright div -->
+            <div align="center">
+                <p>(c) 2016 Brandon Long </p>
+            </div>
+        </footer>
+    </body>
+</html>
