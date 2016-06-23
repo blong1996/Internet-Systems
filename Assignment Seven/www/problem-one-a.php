@@ -17,8 +17,9 @@
  */
 
 
-    $age = $_GET['age'];
+    $age = intval($_GET['age']);
     $name = $_GET['name'];
+
 
 ?>
 
@@ -34,7 +35,7 @@
 </head>
 <body>
 
-    <p><?php echo $name."'s age is ".$age?></p>
+<?php echo "<p> $name's age is $age</p>"?>
 
 </body>
 </html>

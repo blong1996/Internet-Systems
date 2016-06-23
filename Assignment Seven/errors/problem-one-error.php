@@ -16,6 +16,28 @@
  *         \////////////    \/////////////    \///////////    \///     \/////    \///////////
  */
 
+    $age = $_GET['age'];
+?>
 
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Internet Systems Assignment Seven | Problem One</title>
+        <meta charset="UTF-8">
+        <meta name="author" content="Brandon Long">
+        <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+        <script src="http://code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+        <script type="text/javascript" src="js/problem-one.js"></script>
+    </head>
+    <body>
+    <?php echo "<p >'$age' is not an appropriate value for your age. Age must be a non-negative integer.</p>\n"; ?>
+    <form action="../www/problem-one.php" method="get">
+        <label for="age">Your Age: <input type="text" name="age"  id="age"/></label><br>
+        <button id="buttonSubmit" type="submit">Submit</button>
+    </form>
+
+    </body>
+</html>
 
 

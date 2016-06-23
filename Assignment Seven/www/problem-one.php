@@ -16,10 +16,9 @@
  *         \////////////    \/////////////    \///////////    \///     \/////    \///////////
  */
 
-    $age = $_GET['age'];
-
-
-    if ($age < 0 || $age = null || !is_numeric($age))
+    $age = intval($_GET['age']);
+        //  input validation
+    if ($age < 0 || !is_numeric($age))
         header("Location: /errors/problem-one-error.php?age=$age");
 
 ?>
@@ -36,9 +35,9 @@
     </head>
     <body>
 
-    <form action="problem-one-a.php" method="post">
-        <label for="age">Your Age: <input type="text" hidden id="age"/></label><br>
-        <label for="name">Your Name: <input type="text" id="name"/></label><br>
+    <form action="problem-one-a.php" method="get">
+        <input type="hidden" name="age" value="<?php echo $age; ?>" />
+        <label for="name">Your Name: <input type="text" name="name" id="name"/></label><br>
         <button id="buttonSubmit" type="submit">Submit</button>
     </form>
 
