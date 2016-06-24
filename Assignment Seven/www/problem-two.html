@@ -15,24 +15,30 @@
        \////////////    \/////////////    \///////////    \///     \/////    \///////////
 
 -->
-
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Internet Systems Assignment Seven | Problem Three</title>
+        <title>Internet Systems Assignment Seven | Problem Two</title>
         <meta charset="UTF-8">
         <meta name="author" content="Brandon Long">
     </head>
     <body>
+        <form action="problem-two.php" method="get">
+            <fieldset style="width:250px">
+                <legend>Number of each item to place </legend>
+                <label>Plates: <input type="text" name="plates" size="4"  /></label><br>
+                <label>Towels: <input type="text" name="towels" size="4"  /></label><br>
+                <label>Books: <input type="text" name="books" size="4"  /></label><br>
+            </fieldset>
 
-        <form action="problem-three.php" method="get">
-            <h3>When you were born</h3>
-            <p></p>
-            <label for="date">Enter your birth date (YYYY/MM/DD): <br>
-                <input type="text" name="date" id="date" value="1900/01/01"/></label><br>
-            <button id="buttonSubmit" type="submit">OK</button>
-            <button id="buttonReset" type="reset">Cancel</button>
+            <label>Directions:
+                <br>
+                <textarea name="directions" rows="10"  cols="30">Put here where each kind of item should be placed.
+                </textarea>
+            </label>
+            <br>
+
+            <button type="submit">Submit</button>
         </form>
-
     </body>
 </html>
