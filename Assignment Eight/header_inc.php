@@ -17,8 +17,15 @@
 -->
 
 <?php
-    $name = $_REQUEST['name'];  
-    $gender =$_REQUEST['gender'];
-    header ("Location: header_inc.php?name=$name&gender=$gender");
+    $name = $_REQUEST['name'];
+    $gender = $_REQUEST['gender'];
+
+    echo "<h4> Welcome, $name!</h4>";
+
+    if(isset($gender) && $gender=='female')
+        include 'female_inc.php';
+    if(isset($gender) && $gender=='male')
+        include 'male_inc.php';
+
+    include 'footer_inc.php';
 ?>
-		
